@@ -29,6 +29,15 @@ body {
 
 /*Barra de Navegação*/
 
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -97,12 +106,12 @@ body.fotos #navegacao a#fotos {
 #uma-colunas #primario {
     width: 750px;
     margin: 0 0 20px 0;
-    background: green;
+    
 }
 
 #duas-colunas #primario {
     width: 555px;
-    background: green;
+    
 
 }
 
@@ -209,6 +218,40 @@ h3 {
     color: white;
 }
 
+/*Formantando Lista de noticias*/
+
+#lista-noticias li {
+    padding: 2px ;
+    border-bottom: 1px solid #CCC;
+    height: 65px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+}
+
+
+#lista-noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+    font-size: 0.7em;
+    color: black;
+}
+
+#lista-noticias li:hover {
+    background: #eee ;
+    cursor: po;
+}
 
 /*RODAPE*/
 #rodape {
