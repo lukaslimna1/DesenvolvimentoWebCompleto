@@ -8,5 +8,37 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: white url();
+    background: white url(/ChaleHotel/imagens/bg.png);
+    margin: 15px;
+}
+
+#container {
+    /* border: 1px solid red; */
+    background: #ede9cc;
+}
+
+#topo {
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    background: url(imagens/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    top: 0;
+    left: 0;
+    
+}
+
+#menu {
+    position: absolute;
+    background: url(imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    top: 0;
+    right: 0;
 }
