@@ -1,0 +1,12 @@
+/*Estrutura do Site*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: none;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white url();
+}
