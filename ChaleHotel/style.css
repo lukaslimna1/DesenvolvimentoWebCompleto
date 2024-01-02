@@ -14,7 +14,7 @@ body {
 
 #container {
     /* border: 1px solid red; */
-    background: #ede9cc;
+    background: #ede9cc url(imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -35,11 +35,11 @@ body {
     top: 0;
     left: 0;
     z-index: 1;
-    
+
 }
 
 .logo a {
-    position: absolute ;
+    position: absolute;
     top: 15px;
     left: 15px;
     background: url(imagens/logo.png) no-repeat;
@@ -64,12 +64,13 @@ body {
     margin-right: 15px;
     padding-top: 15px;
 
+
 }
 
 #menu-locais {
     border-bottom: 1px solid #b5ab56;
     border-top: 1px solid #b5ab56;
-    padding-top: 5px ;
+    padding-top: 5px;
     padding-bottom: 5px;
     font-size: 0.7em;
     color: #8b8448;
@@ -124,3 +125,79 @@ ul#navegacao a:hover {
     height: 164px;
     float: right;
 }
+
+/*Area de conteduos*/
+
+
+
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(imagens/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0px;
+
+}
+
+#area-lateral {
+    float: right;
+    width: 50%;
+    background: url(imagens/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0px;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+#rodape {
+    clear: both;
+    padding: 16px;
+    background: #FFF url(imagens/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+}
+
+/*Configuração de Textos*/
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/*Formatação da area lateral*/
+
+#beneficios li {
+    padding: 8px;
+    border: 1px solid #f3efcb ;
+    height: 6em;
+}
+
+#beneficio li a img {
+    float: left;
+    margin-right: 8px;
+}
+
+#beneficio li a p {
+    color: black;
+    font-size: 0.8em;
+}
+
+#beneficio li a h3 {
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(imagens/ornamento.png) no-repeat center right;
+}
+
+#beneficio li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
