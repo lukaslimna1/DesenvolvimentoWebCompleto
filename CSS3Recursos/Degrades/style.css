@@ -1,0 +1,15 @@
+#caixa {
+    width: 300px;
+    height: 300px;
+    /* background: url(../Imagens/perfil.jpg);  */
+    /* background: linear-gradient(to left, red, green, yellow, green); */
+    /*Coloca gradiente pode definir a direção usando to (Top, Bottom, left ou right), também pose ser usado valores em graus usando (deg)*/
+    background: radial-gradient(to left, red, green, yellow, green); 
+    /*Coloca um gradiente radial (redondo)*/
+}
+
+/* #caixa h1 {
+    background: rgba(255, 255, 255, 0.5);
+} */
+
+/*o A de rgba é de transparencia*/
